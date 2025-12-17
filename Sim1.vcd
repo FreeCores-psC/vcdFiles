@@ -1,0 +1,37 @@
+$date
+	2025-12-17.15:21:31
+$end
+$version
+	Novakod Studio 2018.
+$end
+$comment
+    Port Identifier:
+	     >? Input  Port
+	     <? Output Port
+	     /? Input  Event Port
+	     \? Output Event Port
+$end
+$timescale
+	1 ns
+$end
+$scope module top $end
+    $var
+        reg 2 >! iCmd
+    $end
+    $var
+        reg 1 /! iCmd_ev
+    $end
+    $var
+        reg 8 >" iLoadVal
+    $end
+    $var
+        reg 8 <! oValue
+    $end
+    $var
+        reg 1 \! oValue_ev
+    $end
+$upscope $end $enddefinitions $end
+
+
+#0
+b0 <!
