@@ -1,0 +1,27 @@
+$date
+	2026-01-08.20:05:50
+$end
+$version
+	Novakod Studio 2018.
+$end
+$comment
+    Port Identifier:
+	     >? Input  Port
+	     <? Output Port
+	     /? Input  Event Port
+	     \? Output Event Port
+$end
+$timescale
+	1 ns
+$end
+$scope module top $end
+    $var
+        reg 8 <! oValue
+    $end
+    $var
+        reg 1 \! oValue_ev
+    $end
+$upscope $end $enddefinitions $end
+
+
+#0
