@@ -10,4 +10,3 @@ git remote add origin git@github.com:FreeCores-psC/vcdFiles.git
 git remote set-url origin git@github.com:FreeCores-psC/vcdFiles.git
 git branch -M main  
 git push --set-upstream origin main
-pause
