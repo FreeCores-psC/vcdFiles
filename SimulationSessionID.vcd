@@ -1,5 +1,5 @@
 $date
-	2026-02-06.09:47:54
+	2026-02-06.09:48:55
 $end
 $version
 	Novakod Studio 2018.
@@ -15,7 +15,48 @@ $timescale
 	1 ns
 $end
 $scope module top $end
+    $var
+        reg 4 >! Keys
+    $end
+    $var
+        reg 1 /! Keys_ev
+    $end
+    $var
+        reg 10 >" Switches
+    $end
+    $var
+        reg 10 <! Leds
+    $end
+    $var
+        reg 8 <" Hex0
+    $end
+    $var
+        reg 8 <# Hex1
+    $end
+    $var
+        reg 8 <$ Hex4
+    $end
+    $var
+        reg 8 <% Hex5
+    $end
+    $var
+        reg 8 <& Hex2
+    $end
+    $var
+        reg 8 <' Hex3
+    $end
 $upscope $end $enddefinitions $end
 
 
 #0
+b1010101 <!
+#20
+b1000000 <%
+b1000000 <$
+b1000000 <'
+b1000000 <&
+b1000000 <#
+b1000000 <"
+#60
+b10010 <#
+b10010 <"
